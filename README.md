@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# 📸 Galeria de Fotos em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma **aplicação web interativa desenvolvida em React** que exibe uma galeria de imagens com **busca em tempo real**. A aplicação foi pensada para ser simples, responsiva e intuitiva, permitindo filtrar fotos instantaneamente pelo nome, sem recarregar a página.
 
-## Available Scripts
+O foco do projeto é praticar **React com Hooks**, manipulação de estado e organização de layout responsivo.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* 🔍 **Busca Instantânea**
+  Filtra as imagens em tempo real conforme o usuário digita no campo de busca.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* 📱 **Interface Responsiva**
+  Layout adaptável para diferentes tamanhos de tela utilizando **CSS Grid**.
 
-### `npm test`
+* 🗂️ **Dados Estáticos**
+  Simulação de uma base de dados contendo **10 imagens predefinidas**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* 🧱 **Layout Estruturado**
+  Aplicação composta por **cabeçalho**, **galeria principal** e **rodapé fixo** com informações de contato.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **React.js** (Hooks: `useState`)
+* **JavaScript (ES6+)**
+* **CSS3** (Flexbox e Grid Layout)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 💻 Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Antes de executar o projeto, certifique-se de ter instalado em sua máquina:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **Node.js** (versão LTS recomendada)
+* **npm** (gerenciador de pacotes, já incluso com o Node.js)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Como Rodar o Projeto
 
-## Learn More
+Siga os passos abaixo para executar a aplicação localmente:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1️⃣ Clonar o repositório
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/LeonardoFreire43/Galeria-De-Fotos.git
+```
 
-### Code Splitting
+### 2️⃣ Acessar a pasta do projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd meu-projeto
+```
 
-### Analyzing the Bundle Size
+### 3️⃣ Instalar as dependências
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Este comando irá baixar todas as bibliotecas necessárias para o funcionamento do React:
 
-### Making a Progressive Web App
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 4️⃣ Executar a aplicação
 
-### Advanced Configuration
+Inicie o servidor de desenvolvimento local:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm start
+```
 
-### Deployment
+O navegador será aberto automaticamente em:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+http://localhost:3000
+```
 
-### `npm run build` fails to minify
+Caso isso não aconteça, basta acessar o endereço manualmente no navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+src/
+ ├── App.js        # Lógica principal, lista de fotos e função de filtragem
+ ├── App.css       # Estilos da aplicação
+public/
+ ├── index.html    # Arquivo HTML principal
+ └── favicon.ico   # Ícone do site
+```
+
+---
+
+## 📌 Observações
+
+* Projeto ideal para fins educacionais e prática com **React básico**.
+* Não utiliza backend ou banco de dados.
+* Toda a filtragem acontece no **frontend**, via estado do React.
+
+---
+
+## 👤 Autor
+
+Desenvolvido por **Leonardo Freire**
+📎 GitHub: [https://github.com/LeonardoFreire43](https://github.com/LeonardoFreire43)
